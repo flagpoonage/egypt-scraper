@@ -1,0 +1,26 @@
+{
+  "name": "egypt-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:flagpoonage/egypt-scraper.git",
+  "author": "James <pokinoice@live.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "got": "^12.0.1",
+    "jsdom": "^19.0.0",
+    "mkdirp": "^1.0.4",
+    "puppeteer": "^13.5.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.11.0",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
